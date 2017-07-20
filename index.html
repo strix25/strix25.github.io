@@ -1,55 +1,127 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Lake Tahoe</title>
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="icon"
-      type="image/png"
-      href="img/fav2.ico">
-  </head>
-  <body>
-  <header>
-    <span class="header-text title">Journey Through the Sierra Nevada Mountains</span>
-    <h1 class="header-text main-header">LAKE TAHOE, CALIFORNIA</h1>
-    <a href="#main-part"><img src="img/arrow.svg" class="arrow" alt="arrow img"></a><!--work on smooth transition-->
-  </header>
-  <main>
-    <p id="main-part" class="intro">Lake Tahoe is one of the most breathtaking attractions located in California. It's home to a number of ski resorts, summer outdoor recreation, and tourist attractions. Snow and skiing are a significant part of the area's reputation.</p>
-    <a href="#">Find out more</a>
-    <article class="wildlife">
-      <h2>Check out all the wildlife</h2>
-      <p>As spawning season approaches, the fish acquire a humpback and protuberant jaw. After spawning, they die and their carcasses provide a feast for gatherings of mink, bears, and bald eagles.</p>
-    </article>
-    <a href="#">See the wildlife</a>
-  </main>
-  <section class="secondary group">
-    <div class="leftside">
-      <img src="img/mtn-landscape.jpg" alt="landscape">
-      <h3>Pack Accordingly</h3>
-      <p>One of most important things when it comes to traveling through the great outdoors is packing accordingly. Here are a few tips:</p>
-      <ol>
-        <li>Bring layers of clothing</li>
-        <li>Pack sunscreen</li>
-        <li>Carry extra water just in case</li>
-        <li>Pack light</li>
-      </ol>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="normalize.css">
+        <link href="style.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="lib/typed.js" charset="utf-8"></script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    </head>
+    <body>
+      <header>
+        <div class="hero">
+          <div class="mainHeading">
+            <h1 class="gloob">Hi, I'm Damjan. I design and build <br>
+              <span id="typed"></span>
+
+            </h1>
+          </div><br><br>
+            <!---->
+            <div class="container">
+  <a href="#noga" class="btn">
+  <svg width="277" height="62">
+    <defs>
+        <linearGradient id="grad1">
+            <stop offset="0%" stop-color="#FF8282"/>
+            <stop offset="100%" stop-color="#E178ED" />
+        </linearGradient>
+    </defs>
+     <rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="266" height="50"></rect>
+  </svg>
+  <!--<span>Voir mes réalisations</span>-->
+    <span>I'M AVAILABLE FOR HIRE</span>
+</a>
+<a href="#projects" id="scrollDown">
+<p id="aboutMe">Learn more about me </p>
+
+<img src="arrow.svg" class="arrow" alt="arrow img"></a>
+</div>
+            <!---->
+
+
+          </div>
+
+
+        <!--<div class="layer"></div>-->
+
+
+
+      </header>
+      <main>
+
+
+    <div id="projects">
+
+        <div class="wideHeader">
+            <h1>PORTFOLIO PROJECTS </h1>
+        </div>
     </div>
-    <div class="rightside">
-      <img src="img/resort.jpg" alt="resort">
-      <h3>From Tents to Resorts</h3>
-      <p>Lake Tahoe is full of wonderful places to stay. You have the ability to sleep in the outdoors in a tent, or relax like a king at a five star resort. Here are our top three resorts:</p>
-      <ul>
-        <li>Lake Tahoe Resort Hotel</li>
-        <li>South Lake Tahoe Resorts</li>
-        <li>Tahoe Ski Resort Lodging</li
-      </ul>
+    <div class="my_container">
+    <ul>
+        <li class="block">
+        <a href="#"><img src="http://lorempixel.com/400/400/people" />
+        <span>People</span></a>
+        </li>
+        <li class="block">
+        <a href="#"><img src="http://lorempixel.com/400/400/food" />
+        <span>Food</span></a>
+        </li>
+        <li class="block">
+        <a href="#"><img src="http://lorempixel.com/400/400/cats" />
+        <span>Cats</span></a>
+        </li>
+        <li class="block">
+        <a href="#"><img src="http://lorempixel.com/400/400/transport" />
+        <span>Transport</span></a>
+        </li>
+        <li class="block">
+        <a href="#"><img src="http://lorempixel.com/400/400/abstract" />
+        <span>Abstract</span></a>
+        </li>
+        <li class="block">
+        <a href="#"><img src="http://lorempixel.com/400/400/nightlife" />
+        <span>Nightlife</span></a>
+        </li>
+        <li class="block">
+        <a href="#"><img src="http://lorempixel.com/400/400/city" />
+        <span>City</span></a>
+        </li>
+        <li class="block">
+        <a href="#"><img src="http://lorempixel.com/400/400/sports" />
+        <span>Sports</span></a>
+        </li>
+    </ul>
     </div>
-  </section>
-  <footer>
-    <p>All rights reserved to  <a href="#">Nobody</a>.</p>
-    <a href="#">Back to top >></a>
-  </footer>
-  </body>
+    </main>
+    <!-- <div class="socket">
+      <p>About me:</p>
+      <p>
+        Im Junior web developer looking to get hired, Im from Slovenia and i can move out of it. At the moment I focus on front-end development but I have also some experience with backend.
+        Skillset: html5, css3, javaScript, php, ajax, mysql, sql, c#
+        My plan is to become JavaScript developer, so that's the reason im focusing on angular 4 right now.
+      </p>
+
+    </div> -->
+    <footer id="noga">
+      <div class="footerContainer">
+        <h2>GET IN TOUCH</h2>
+        <div class="contacts">
+          <p class="contact">damjan.oslaj@gmail.com</p>
+          <p class="contact">damjan.oslaj</p>
+          <p class="">+38641-295-986</p>
+        </div>
+
+
+        <div class="areaspodaj">
+          <p id="cpRights">ALL RIGHTS RESERVED. 2017</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js" charset="utf-8"></script>
+
+    </body>
 </html>

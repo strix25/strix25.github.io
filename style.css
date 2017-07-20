@@ -1,0 +1,291 @@
+/* apply a natural box layout model to all elements */
+body{
+    height: 100vh;
+    background-color: #2A3A3F;
+    margin:0;
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+main{
+  width: 100%;
+      margin: auto;
+      margin-bottom: 20px;
+
+      height: 900px;
+
+}
+
+
+header{
+  height:100vh;
+  background-image: url(image1.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 100vh rgba(0,0,0,.12);
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  margin:0;
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+
+#projects{
+  color:black;
+    display:block;
+    height: 15vh;
+    background-color:white;
+    /**/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*new crap*/
+
+/*new crap*/
+p{
+    margin:0;
+}
+/*galerija*/
+/*dodano by me*/
+ul{
+      display: inline;
+}
+
+.my_container{
+  height: 100%;
+}
+/*dodano by me*/
+.my_container ul {
+  list-style: none;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  clear: both;
+}
+.my_container ul .block {
+  width: 20%;
+  height: auto;
+  position: relative;
+  float: left;
+  margin: 0 0 0 0;
+  padding: 0 0 20% 0;
+  transition: 0.8s ease;
+}
+.my_container ul .block:hover span {
+  height: 50%;
+}
+@media screen and (max-width: 1280px) {
+  .my_container ul .block {
+    width: 25%;
+    padding-bottom: 25%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .my_container ul .block {
+    width: 33.33%;
+    padding-bottom: 33.33%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .my_container ul .block {
+    width: 50%;
+    padding-bottom: 50%;
+  }
+
+  /*nazadnje dodano*/
+  h1{
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 360px) {
+  .my_container ul .block {
+    width: 100%;
+    padding-bottom: 100%;
+  }
+}
+.my_container ul .block img {
+  max-width: none;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.my_container ul .block span {
+  width: 100%;
+  height: 3rem;
+  line-height: 3rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0 1rem;
+  font-size: 1.3rem;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  transition: 0.8s ease;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/*galerija*/
+
+.gloob{
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-bottom: 3vh;
+}
+
+.hero{
+  padding-top: 45vh;
+  height:100vh;
+  width: 40%;
+  margin:0 auto 0 auto;
+  /*background-color:rgba(255,255,0,0.3);*/
+  text-align: center;
+}
+
+#aboutMe{
+  margin-top: 25vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*vse za button*/
+.container{
+  padding-top: 44vh;
+  height:100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn {
+    margin-top: calc(50% + 25px);
+    position: relative;
+    display: inline-block;
+    width: 277px;
+    height: 50px;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration:none;
+    font-family: 'Roboto', sans-serif;
+    font-weight:900;
+    font-size:17px;
+    letter-spacing: 0.045em;
+}
+
+.btn svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.btn svg rect {
+    //stroke: #EC0033;
+    stroke-width: 4;
+    stroke-dasharray: 353, 0;
+    stroke-dashoffset: 0;
+    -webkit-transition: all 600ms ease;
+    transition: all 600ms ease;
+}
+
+.btn span{
+  background: rgb(255,130,130);
+  background: -moz-linear-gradient(left,  rgba(255,130,130,1) 0%, rgba(225,120,237,1) 100%);
+  background: -webkit-linear-gradient(left,  rgba(255,130,130,1) 0%,rgba(225,120,237,1) 100%);
+  background: linear-gradient(to right,  rgba(255,130,130,1) 0%,rgba(225,120,237,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8282', endColorstr='#e178ed',GradientType=1 );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn:hover svg rect {
+    stroke-width: 4;
+    stroke-dasharray: 196, 543;
+    stroke-dashoffset: 437;
+}
+
+
+
+.typed-cursor {
+  font-weight: 400;
+}
+
+.arrow{
+  width:40px;
+  margin-bottom: -2.5vh;
+  opacity: 0.6;
+}
+
+#scrollDown{
+  color:rgba(255,255,255, 0.3);
+  text-decoration: none;
+}
+
+.wideHeader{
+  letter-spacing: 20px;
+}
+
+footer{
+
+  height: 200px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+
+    background: url("http://i1378.photobucket.com/albums/ah89/andreykokhanevich/portfolio%20page/footer-bg_zps1imhqalh.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+
+}
+
+/*.socket{
+  margin: 0 auto 0 auto;
+  height: 20vh;
+  background-color: #FDCD3B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color:black;
+}*/
+
+p:before {
+  background: url("posta.svg.png");
+  background: url("posta.svg.png"), none;
+}
+
+h2{
+  letter-spacing: 10px;
+}
+
+#cpRights{
+  font-size:0.6rem;
+  margin-top: 11px;
+}
+
+.contact{
+  margin-bottom: 4px;
+}
