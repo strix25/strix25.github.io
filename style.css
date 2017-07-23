@@ -258,7 +258,8 @@ footer{
   justify-content: center;
   width:100%;
 
-    background: url("http://i1378.photobucket.com/albums/ah89/andreykokhanevich/portfolio%20page/footer-bg_zps1imhqalh.jpg");
+    /*background: url("http://i1378.photobucket.com/albums/ah89/andreykokhanevich/portfolio%20page/footer-bg_zps1imhqalh.jpg");*/
+    background: url("footer.jpg");
     -webkit-background-size: cover;
     background-size: cover;
     color: #fff;
