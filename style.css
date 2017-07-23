@@ -80,6 +80,8 @@ ul{
   height: 50%;
 }
 
+
+
 @media screen and (max-width: 1280px) {
   .my_container ul .block {
     width: 25%;
@@ -296,4 +298,13 @@ h2{
 
 i{
   margin-right: 8px;
+}
+
+@media screen and (min-height:1200px){
+  h2{
+    margin-top: 2vh;
+  }
+  #cpRights{
+    margin-top: 5vh;
+  }
 }
