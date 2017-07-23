@@ -1,0 +1,12 @@
+.container ul:nth-child(1) li {
+  cursor: pointer;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.container {
+  min-height: 100%;
+}

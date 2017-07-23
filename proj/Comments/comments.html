@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous" />
+  <script data-require="jquery@*" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <link data-require="jquery-ui@*" rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css" />
+  <script data-require="jquery-ui@*" src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+</head>
+
+<body>
+
+  <div id="dialog" title="Vnesi komentar">
+    <form>
+      <div>
+        <label for="vzdevek">Vzdevek</label>
+        <input type="text" id="vzdevek" />
+        <small class="notification">Vzdevek je obvezen!</small>
+      </div>
+      <br />
+      <div>
+        <label for="komentar">Komentar</label>
+        <textarea id="komentar"></textarea>
+        <small class="notification">Komentar je obvezen!</small>
+      </div>
+    </form>
+  </div>
+
+  <div class="container">
+    <div class="card" style="width: 40em; margin: 0 auto;">
+      <img class="card-img-top" src="https://img.rtvslo.si/_up/upload/2017/03/31/65392445_clipboard01.jpg" alt="Filmska recenzija: Duh v školjki" />
+      <div class="card-block">
+        <h4 class="card-title">Filmska recenzija: Duh v školjki</h4>
+        <p class="card-text">
+          <small class="text-muted">
+            Ne zgodi se prav pogosto, da bi neko filmsko delo že v predprodukciji dvignilo toliko prahu, kot je to uspelo Dreamworksovi igrani priredbi priljubljene mange Duh v školjki.
+            </small>
+          <br />
+          <br />
+          <span>
+            Rekli bi lahko celo, da smo bili pred približno dvema letoma, ko je studio javnosti ponosno in skoraj bahavo sporočil, da je za glavno vlogo angažiral zvezdnico najvišje kategorije, karizmatično Scarlett Johansson, priča dvigu pravega peščenega viharja.
+            <br /><br />Ta poteza, s katero so pri Dreamworksu želeli zagnati promocijo za enega svojih ambicioznejših projektov, se je namreč takoj izkazala za izrazito kontraproduktivno, saj je namesto vihravega navdušenja sprožila val ogorčenja. Z izborom Johanssonove naj bi Hollywood znova dokazal, da je pod njegovim okriljem multikulturnost in rasna raznolikost le puhla parola, medtem ko dejansko vsevprek izvaja eno samo kontinuirano "beljenje" oziroma prilagajanje vsebine belopolti večini.
+            <br /><br />Vir: https://www.rtvslo.si/kultura/gledamo/filmska-recenzija-duh-v-skoljki/418733
+          </span>
+        </p>
+      </div>
+
+      <div class="card-block">
+        <a href="#/" class="card-link">Prikaži komentarje</a>
+        <a href="#/" class="card-link">Oddajte svoj komentar</a> - Število komentarjev: <span id="stKomentarjev">0</span>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+          <div class="w-100">
+            <h5>List group item heading</h5>
+          </div>
+          <p>Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
