@@ -1,4 +1,3 @@
-/* apply a natural box layout model to all elements */
 body{
     height: 100vh;
     background-color: #2A3A3F;
@@ -8,20 +7,18 @@ body{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
+
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 main{
   width: 100%;
   margin: auto;
   margin-bottom: 20px;
-
-  /*height: 900px;*/
-
 }
-
 
 header{
   height:100vh;
@@ -49,14 +46,11 @@ h1{
     align-items: center;
     justify-content: center;
 }
-/*new crap*/
 
-/*new crap*/
 p{
     margin:0;
 }
-/*galerija*/
-/*dodano by me*/
+
 ul{
       display: inline;
 }
@@ -64,13 +58,14 @@ ul{
 .my_container{
   height: 100%;
 }
-/*dodano by me*/
+
 .my_container ul {
   list-style: none;
   margin: 0 0 0 0;
   padding: 0 0 0 0;
   clear: both;
 }
+
 .my_container ul .block {
   width: 20%;
   height: auto;
@@ -80,28 +75,31 @@ ul{
   padding: 0 0 20% 0;
   transition: 0.8s ease;
 }
+
 .my_container ul .block:hover span {
   height: 50%;
 }
+
 @media screen and (max-width: 1280px) {
   .my_container ul .block {
     width: 25%;
     padding-bottom: 25%;
   }
 }
+
 @media screen and (max-width: 1024px) {
   .my_container ul .block {
     width: 33.33%;
     padding-bottom: 33.33%;
   }
 }
+
 @media screen and (max-width: 600px) {
   .my_container ul .block {
     width: 50%;
     padding-bottom: 50%;
   }
 
-  /*nazadnje dodano*/
   h1{
     font-size: 1rem;
   }
@@ -110,12 +108,14 @@ ul{
     display:none;
   }
 }
+
 @media screen and (max-width: 360px) {
   .my_container ul .block {
     width: 100%;
     padding-bottom: 100%;
   }
 }
+
 .my_container ul .block img {
   max-width: none;
   width: 100%;
@@ -123,6 +123,7 @@ ul{
   top: 0;
   left: 0;
 }
+
 .my_container ul .block span {
   width: 100%;
   height: 3rem;
@@ -145,7 +146,6 @@ ul{
     width: 100%;
     height: 100%;
 }
-/*galerija*/
 
 .gloob{
   font-family: "Montserrat", sans-serif;
@@ -158,7 +158,6 @@ ul{
   height:100vh;
   width: 40%;
   margin:0 auto 0 auto;
-  /*background-color:rgba(255,255,0,0.3);*/
   text-align: center;
 }
 
@@ -167,7 +166,7 @@ ul{
   font-family: "Montserrat", sans-serif;
 }
 
-/*vse za button*/
+/*button hire*/
 .container{
   padding-top: 44vh;
   height:100%;
@@ -176,6 +175,7 @@ ul{
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .btn {
     margin-top: calc(50% + 25px);
     position: relative;
@@ -217,7 +217,6 @@ ul{
   background: -webkit-linear-gradient(left,  rgba(255,130,130,1) 0%,rgba(225,120,237,1) 100%);
   background: linear-gradient(to right,  rgba(255,130,130,1) 0%,rgba(225,120,237,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8282', endColorstr='#e178ed',GradientType=1 );
-
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -227,8 +226,6 @@ ul{
     stroke-dasharray: 196, 543;
     stroke-dashoffset: 437;
 }
-
-
 
 .typed-cursor {
   font-weight: 400;
@@ -250,20 +247,17 @@ ul{
 }
 
 footer{
-
   height: 260px;
   background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   width:100%;
-
-    /*background: url("http://i1378.photobucket.com/albums/ah89/andreykokhanevich/portfolio%20page/footer-bg_zps1imhqalh.jpg");*/
-    background: url("footer.jpg");
-    -webkit-background-size: cover;
-    background-size: cover;
-    color: #fff;
-
+  /*background: url("http://i1378.photobucket.com/albums/ah89/andreykokhanevich/portfolio%20page/footer-bg_zps1imhqalh.jpg");*/
+  background: url("footer.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  color: #fff;
 }
 
 /*.socket{
@@ -294,7 +288,6 @@ h2{
 #cpRights{
   font-size:0.6rem;
   margin-top: 9vh;
-
 }
 
 .contact{
