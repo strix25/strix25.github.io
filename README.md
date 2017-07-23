@@ -1,1 +1,0 @@
-# strix25.github.io
