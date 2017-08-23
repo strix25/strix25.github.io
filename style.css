@@ -22,8 +22,7 @@ main{
 
 header{
   height:100vh;
-  background-image: url(http://shrani.si/f/1O/lW/4ADJRzLO/del.jpg);
-  /* background-image: url(image1-min.jpg); */
+  background-image: url(image1-min.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
