@@ -1,0 +1,16 @@
+body{
+    background: #343a40;
+    font-family: Segoe UI;
+}
+
+.search-box{
+    margin-bottom:1em;
+}
+
+tbody td{
+    cursor: pointer;
+}
+
+#chart{
+    display:none;
+}
