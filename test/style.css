@@ -44,7 +44,8 @@ body{
 
 .out{
     display: flex;
-    height: 10vh;
+    flex-direction: column;
+    height: 13vh;
     width:300px;
     background:#5bc0de;
     margin: auto;
