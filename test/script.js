@@ -4,7 +4,7 @@
     const departureBtn = document.getElementById('departure');
     const database = window.localStorage;
     
-    
+    outputHoursForCurrMonth();
 
     //arrival
     arrivalBtn.addEventListener('click', () => {
@@ -120,8 +120,7 @@
             }
         }
 
-        let output = document.getElementById("output");
-        output.innerHTML = outputHoursForCurrMonth();
+        outputHoursForCurrMonth();
         
     });
 
@@ -166,7 +165,9 @@ function outputHoursForCurrMonth(){
             sumHours += parsedData[key].departure.minWorked;
         }
     }
-    return sumHours;
+
+    let output = document.getElementById("output");
+    output.innerHTML = sumHours;
 }
 
 // })();
