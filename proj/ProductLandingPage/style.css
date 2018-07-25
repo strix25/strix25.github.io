@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    color: white;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background: url('assets/header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: inset 0 0 0 80vh rgba(0,0,0,0.55);
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 1%;
+}
+
+nav{
+    width: 100%;
+    display:flex;
+        justify-content: space-between;
+}
+
+#logo{
+    height:55px;
+    width:230px;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.jumboText h1{
+    font-size: 4em;
+}
+
+.jumboText{
+    width:50%;
+}
+
+.bt{
+    color: black;
+}
+
+.mid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 160px;
+}
+
+.myButton {
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+    margin-top: 3em;
+    font-size: 1.2em;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton2 {
+	background-color:#FFA500;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #FFA500;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	padding:10px 24px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+    font-size: 1em;
+}
+.myButton2:hover {
+	background-color:rgb(240, 176, 0);
+}
+.myButton2:active {
+	position:relative;
+	top:1px;
+}
+
+.lastLi{
+    margin-top: 5px;
+}
+
+.main{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 234, 234);
+    padding-bottom: 40px;
+}
+.product{
+    width: 347px;
+    height: 499px;
+}
+
+.main h1{
+    margin: 1em 1em 0.1em 1em;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.main p{
+    color: grey;
+    margin-bottom:40px;
+}
+
+.pricing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1%;
+}
+
+.pricing h1{
+    font-size: 40px;
+}
+
+.pricing p{
+    color: grey;
+    margin-bottom: 30px;
+}
+
+.pricing img{
+    height: 263px;
+    width: 263px;
+}
+
+.lib{
+    display: flex;
+}
+
+.lib div h1{
+    font-size: 30px;
+}
+
+.lib div{
+    margin: 20px;
+}
+
+#contact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 10px 10px 10px;
+}
+
+#contact form input[type='email']{
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#contact form textarea{
+    margin-bottom: 20px;
+}
+
+
+
+/*#######################################*/
+.navbar {
+    overflow: hidden;
+    background-color: rgba(2, 2, 2, 0.4);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 60%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+@media only screen and (max-width: 1400px) {
+    .myButton2{
+        font-size: 0.6em;
+    }
+    .navbar ul li{
+        font-size: 1em;
+    }
+    header{
+        padding-left: 10%;
+        padding-right: 10%; 
+    }
+    .navbar{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1189px) {
+    .lib{
+        flex-wrap: wrap;
+    }
+    
+    .lib div h1{
+        font-size: 20px;
+    }
+    
+    .lib div{
+        margin: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 1020px) {
+    .myButton2{
+        font-size: 0.6em;
+    }
+    .navbar ul li{
+        font-size: 1em;
+    }
+    header{
+        padding-left: 20px;
+        padding-right: 20px; 
+    }
+    .navbar{
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 858px) {
+    .mid{
+        align-items: center;
+        justify-content: center;
+    }
+    .jumboText{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    header{
+        height: 110vh;
+    }
+    #logo {
+        height: 90%;
+        width: 15%;
+    }
+    .navbar ul li{
+        font-size: 0.8em;
+    }
+    
+}
+
+@media only screen and (max-width: 587px) {
+    .nabvar{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lib{
+        align-items:center;
+        justify-content: center;
+    }
+}
