@@ -4,7 +4,7 @@
 // });
 
   var typed = new Typed('#typed', {
-      strings: ["user interfaces.", "landing pages.", "corporate websites.", "web aplications."],
+      strings: ["user interfaces.", "landing pages.", "corporate websites.", "web applications."],
       typeSpeed: 80,
       loop:true,
       loopCount: Infinity,
